@@ -1,6 +1,6 @@
 # Proyecto final JAVA Codo a codo
 
-Integrantes:  
+Integrantes: 
 Junco, Magalí 
 Wittmann, Martín
 

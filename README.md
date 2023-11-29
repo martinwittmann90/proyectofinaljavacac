@@ -1,12 +1,15 @@
 # Proyecto final JAVA Codo a codo
 
 Integrantes: 
+
 Junco, Magalí 
+
 Wittmann, Martín
 
 Catalogo de películas
 
 Título:
+
 Año:
 Género: 
 Plataforma:

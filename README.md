@@ -6,25 +6,29 @@ Junco, Magalí
 
 Wittmann, Martín
 
-Catalogo de películas
+Nombre: Searchflix 
 
-Título:
+El trabajo final consistirá en la entrega de una página web destinada a poder buscar películas por plataformas. El usuario al ingresar a la web podrá buscar en que plataforma de  streaming se encuentra alojada la pelicula que desea ver. 
 
-Año:
+Cada película de la base de datos contará con los siguientes campos: 
 
-Género:
+-Título:
 
-Plataforma:
+-Plataforma:
 
-Director:
+-Año:
 
-Productora:
+-Género:
 
-Actores/actrices:
+-Director:
 
-Reportar error: 
+-Productora:
 
-La pelicula no esta en ...... plataforma
+-Actores/actrices:
+
+A su vez se dispondrá de un form para reportar errores, debido a que los catálogos de las plataformas se actualizan: 
+
+La pelicula "...." no esta en ...... plataforma
 
 E-commerce (idea por verse)
 
@@ -32,15 +36,15 @@ El usuario tambien podrá alquilar peliculas.
 
 Luego de la compra al usuario le llegará un link para ver la película. 
 
-Secciones: 
+La página contrá con las siguientes Secciones: 
 
-Alquiler
+-Alquiler
 
-Consulta nuestro catalogo
+-Consulta nuestro catalogo
 
-Informe de error
+-Informe de error
 
-Colabora con nosotros - Filtro 
+-Colabora con nosotros - Filtro 
 
-Buscador (qualid)
+-Buscador (qualid)
 

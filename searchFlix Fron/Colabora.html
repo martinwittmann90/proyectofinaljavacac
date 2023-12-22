@@ -29,7 +29,7 @@
 				  <a class="nav-link" href="#">Quiénes somos</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link" href="./Search.html">Catálogo</a>
+				  <a class="nav-link" href="./Catálogo.html">Catálogo</a>
 				</li>
 				<li class="nav-item">
 				  <a class="nav-link" href="./Colabora.html">¿Cómo colaborar?</a>
@@ -47,72 +47,51 @@
 	
 			  </ul>
 			</nav>
-    <div class="container-fluid">
-		<div class="row p-4">
+    <div class="container-fluid ingresar">
+		<div class="row p-4 colabora">
 			<div class="col-md-4">
-				<h3>INGRESE SU PELICULA</h3>
+				<h3 class="pelicula">INGRESE SU PELICULA</h3>
 				<form role="form" action="index" method="post" class="formulario">
 					<div class="form-group">
-						<label for="nombre">titulo</label>
+						<label for="nombre">Título</label>
 						<input type="text" class="form-control" id="titulo" name="tituloInput" />
 					</div>
 					<div class="form-group">
-						<label for="apellido">año</label>
+						<label for="apellido">Año</label>
 						<input type="text" class="form-control" id="año" name="añoInput" />
 					</div>
 					<div class="form-group">
-						<label for="apellido">genero</label>
+						<label for="apellido">Género</label>
 						<input type="text" class="form-control" id="genero" name="generoInput" />
 					</div>
 					<div class="form-group">
-						<label for="apellido">plataforma</label>
+						<label for="apellido">Plataforma</label>
 						<input type="text" class="form-control" id="apellido" name="plataformaInput" />
 					</div>
 					<div class="form-group">
-						<label for="apellido">director</label>
+						<label for="apellido">Director</label>
 						<input type="text" class="form-control" id="director" name="directorInput" />
 					</div>
 					<div class="form-group">
-						<label for="apellido">productora</label>
+						<label for="apellido">Productora</label>
 						<input type="text" class="form-control" id="productora" name="productoraInput" />
 					</div>
 					<div class="form-group">
-						<label for="apellido">actores_actrices</label>
+						<label for="apellido">Actores/actrices</label>
 						<input type="text" class="form-control" id="actores_actrices" name="actores_actricesInput" />
 					</div>
-					<button type="submit" class="btn btn-primary" onclick="enviarDatos(event)">Submit</button>
+					<button type="submit" class="btn btn-success enviar" onclick="enviarDatos(event)">Enviar</button>
 				</form>
 			</div>
 			<div class="col-md-8 d-flex" id="historial"></div>
 		</div>
-		<div class="row">
-			<div class="container col-8 justify-content-center">
-				<h3>Listado de peliculas</h3>
-				<button type="submit" class="btn btn-primary" onclick="listarUsuarios()">Submit</button>
-				<table id="tablaDatos" class="table">
-					<thead>
-						<tr>
-							<th>ID</th>
-							<th>TITULO</th>
-							<th>AÑO</th>
-							<th>GENERO</th>
-							<th>PLATAFORMA</th>
-							<th>DIRECTOR</th>
-							<th>PRODUCTORA</th>
-							<th>ACTORES_ACTRICES</th>
-						</tr>
-					</thead>
-					<tbody id="cuerpoTabla">
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</div>
-	<!-- Copyright -->
-	<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2023 SEARCHFLIX
-        <a class="text-body" href="https://mdbootstrap.com/"></a>
-      </div>
+	
+	<footer>
+        <div class= footer style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2023 SEARCHFLIX
+          
+        </div>
+      </footer>
     <script>  
 		function listarUsuarios() {
 			fetch('endpoint', {

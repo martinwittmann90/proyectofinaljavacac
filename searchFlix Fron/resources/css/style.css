@@ -64,3 +64,14 @@ footer{
   height:200px; */
   color: white;
 }
+.conteiner-card{
+  margin-left: 385px;
+  margin-top: 107px;
+}
+.conteiner-formulario{
+  margin-left: 413px;
+}
+.lista{
+  list-style:none;
+  font-weight: bold;
+}
